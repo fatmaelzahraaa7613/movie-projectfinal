@@ -16,7 +16,6 @@
 p {
     font-family: 'Cardo', serif;
     text-align:center;
-    /*margin:50%;*/
     color:white;
     font-size:30px;
 }
@@ -32,4 +31,20 @@ span{
     float:left;
     margin:5px;
     padding:50px;
+    position:absolute;
+}
+h6{
+    margin:10px;
+    float:right;
+    font-size:20px;
+    color:white;
+    background-color:#B70300;
+}
+#solo{
+    font-size:8px;
+    color:white;
+}
+#date{
+    font-size:18px;
+    color:white;
 }
