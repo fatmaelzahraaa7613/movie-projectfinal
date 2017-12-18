@@ -1,13 +1,14 @@
 .image{
-    margin:auto;
-    padding:100px;
+    margin-left: auto;
+    margin-right: auto;
     position:relative;
+    text-align:center;
 }
 
 .title{
     font-family: 'Spectral SC', serif;
     /*position:absolute;*/
-    /*text-align:center;*/
+    text-align:center;
     display:block;
     margin:0 auto;
 }
