@@ -11,12 +11,15 @@
     text-align:center;
     display:block;
     margin:0 auto;
+    background-color:lightgreen;
 }
 p {
     font-family: 'Cardo', serif;
-    margin:20%;
-    position:absolute;
+    text-align:center;
+    /*margin:50%;*/
+    color:white;
+    font-size:30px;
 }
-/*body{*/
-/*    background-image: url("sep11-moviebg.jpg");*/
-/*}*/
+body{
+    background-image: url("sep11-moviebg.jpg");
+}
