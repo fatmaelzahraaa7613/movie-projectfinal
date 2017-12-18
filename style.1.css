@@ -1,0 +1,21 @@
+.image{
+    margin:auto;
+    padding:100px;
+    position:relative;
+}
+
+.title{
+    font-family: 'Spectral SC', serif;
+    /*position:absolute;*/
+    /*text-align:center;*/
+    display:block;
+    margin:0 auto;
+}
+p {
+    font-family: 'Cardo', serif;
+    margin:20%;
+    position:absolute;
+}
+/*body{*/
+/*    background-image: url("sep11-moviebg.jpg");*/
+/*}*/
