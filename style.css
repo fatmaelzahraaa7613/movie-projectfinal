@@ -9,9 +9,17 @@
     font-family: 'Spectral SC', serif;
     /*position:absolute;*/
     text-align:center;
-    display:block;
+    display:white;
     margin:0 auto;
-    background-color:lightgreen;
+    border-color: green;
+   background-color:white;
+ background: linear-gradient(blue, green);
+ /* here is how to transform the title so that it transaltes 20 pixels and rotates 5degrees */
+ transform: translate(20px);
+ -ms-transform: rotate(5deg); 
+    -webkit-transform: rotate(5deg); 
+    transform: rotate(5deg); 
+    
 }
 p {
     font-family: 'Cardo', serif;
@@ -19,8 +27,12 @@ p {
     color:white;
     font-size:30px;
 }
+/* Here is the border for background image*/
 body{
     background-image: url("sep11-moviebg.jpg");
+     border-style: double;/*border type*/
+    border-width: 15px; /*border width*/
+    border-color: green; /*border color*/
 }
 span{
     color:red;
@@ -39,6 +51,9 @@ h6{
     font-size:20px;
     color:white;
     background-color:#B70300;
+     transition: width 2s linear 1s; /*transition for submit button*/
+    
+    
 }
 #solo{
     font-size:8px;
@@ -47,4 +62,16 @@ h6{
 #date{
     font-size:18px;
     color:white;
+}
+*/* here is the animation for body 1*/
+.body1{
+    text-shadow: 5px 2px 8px #FF0000;
+    -webkit-animation-name: black; 
+    animation: black 4s ease-in-out 0s infinte;
+    -webkit-animation-duration: 4s;
+}
+@keyframes black{
+    0%{opacity: 2;}
+    50%{opacity: 0;}
+    100%{opacity: 2;}
 }
